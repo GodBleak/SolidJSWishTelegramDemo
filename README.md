@@ -1,4 +1,4 @@
-# A template of GramJS entirely in the browser with SolidJS.
+# A template for GramJS entirely in the browser with SolidJS.
 
 Uses the [SolidJS](https://github.com/solidjs/solid) [vite typescript starter template](https://github.com/solidjs/templates/tree/master/ts), with [Animate.css](https://github.com/animate-css/animate.css), [TailwindCSS](https://github.com/tailwindlabs/tailwindcss), and [DaisyUI](https://github.com/saadeghi/daisyui)
 
