@@ -88,7 +88,7 @@ function askFor(request: string): Promise<string> {
         input.value = ''; // clear the input for the user
         input.type = "number" // help the user avoid typos
         input.placeholder = "Enter your verification code";
-        prompt.innerText = "A verification was sent via Telegram or SMS.";
+        prompt.innerText = "A verification code was sent via Telegram or SMS.";
         button.onclick = () => (button.classList.toggle("loading"), resolve(input.value));
         break;
 
