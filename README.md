@@ -2,7 +2,7 @@
 
 Uses the [SolidJS](https://github.com/solidjs/solid) [vite typescript starter template](https://github.com/solidjs/templates/tree/master/ts), with [Animate.css](https://github.com/animate-css/animate.css), [TailwindCSS](https://github.com/tailwindlabs/tailwindcss), and [DaisyUI](https://github.com/saadeghi/daisyui)
 
-[**demo**](https://codesandbox.io/s/solidjs-ts-tailwindcss-animatecss-telegram-fuycpn)
+[**demo**](https://codesandbox.io/s/github/GodBleak/SolidJS_Telegram_Template)
 
 ### Usage
 
