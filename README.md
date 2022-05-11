@@ -12,13 +12,17 @@ This is the reason you see a `pnpm-lock.yaml`. That being said, any package mana
 ```bash
 $ npm install # or pnpm install or yarn install
 ```
-
+**Don't forget your environment variables**
+You'll need to specify your API ID & API Hash from [Telegram](https://my.telegram.org) for the environment variables `VITE_API_ID` & `VITE_API_HASH`
+- in the demo, configure this in Server Control Panel > Secret Keys
+- in for local dev, do this in a `.env` file.
+ 
 **You must also configure SSL**
 For dev purposes, I recommend using [mkcert](https://github.com/FiloSottile/mkcert#example) and passing your key and cert files to vite's [`server.https`](https://vitejs.dev/config/#server-https). Detailed instructions [here](https://stackoverflow.com/a/69743888). mkcert does have an [npm package](https://www.npmjs.com/package/mkcert), but I had no luck with that route, albeit I didn't try very hard.
 
 
 ### Learn more on SolidJS at the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
-### Learn more about GramJS at [their repo](https://github.com/gram-js/gramjs) and come chat with us on [Telegram](https://t.me/gramjschat)
+### Learn more about GramJS at [github/gram-js/gramjs](https://github.com/gram-js/gramjs) and come chat with us on [Telegram](https://t.me/gramjschat)
 
 ## Available Scripts
 
